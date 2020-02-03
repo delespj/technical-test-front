@@ -9,7 +9,7 @@
 
                             <v-icon class="d-block" color="#000">mdi-web</v-icon>
 
-                            <v-list-item-title class="d-inline text-left headline font-weight-bold" v-text="i+1">
+                            <v-list-item-title class="d-inline text-left headline font-weight-bold" v-text="i+6">
                             </v-list-item-title>
 
                             <v-list-item-title class="d-inline caption font-weight-black" v-text="item.adj" style="position: relative; bottom: 8px;">
@@ -36,20 +36,20 @@
 </template>
 
 <script>
-	export default {
+    export default {
 
-		name: 'Ranking1To5',
+        name: 'Ranking6To10',
 
-		data: () => ({
-			item: 1,
-			items: [
-				{ adj: 'st', text: 'Doctor Who' },
-				{ adj: 'nd', text: 'Vikings' },
-				{ adj: 'rd', text: 'Black mirror' },
-				{ adj: 'th', text: 'Peaky blinders' },
-				{ adj: 'th', text: 'Sherlock' },
-			],
-		}),
+        data: () => ({
+            item: 1,
+            items: [
+                { adj: 'th', text: 'Game of thrones' },
+                { adj: 'th', text: 'Westworld' },
+                { adj: 'th', text: 'The witcher' },
+                { adj: 'th', text: 'Mandalorian' },
+                { adj: '', text: 'House of cards' },
+            ],
+        }),
 
-	}
+    }
 </script>

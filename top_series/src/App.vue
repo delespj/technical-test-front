@@ -1,18 +1,18 @@
 <template>
-  <v-app align="center">
-    <v-content class="grey lighten-2">
-      <buttonsRankingSeries>
-      </buttonsRankingSeries>
-    </v-content>
+  <v-app>
+    <toolbar></toolbar>
+      <v-content class="grey lighten-2">
+        <router-view></router-view>
+      </v-content>
   </v-app>
 </template>
 <script>
-import buttonsRankingSeries from '@/components/buttons';
+import toolbar from '@/components/toolbar';
 
 export default {
   name: 'App',
   components: {
-    buttonsRankingSeries
+    toolbar
   },
 
   data: () => ({

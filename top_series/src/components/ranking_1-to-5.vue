@@ -50,7 +50,4 @@ export default {
     letter-spacing: 0;
     color: black;
 }
-.active-btn {
-  
-}
 </style>

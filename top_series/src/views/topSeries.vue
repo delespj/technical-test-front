@@ -1,19 +1,11 @@
 <template>
-  <div class="ma-5">
-    coucou
-    <Ranking1To5 />
-  </div>
+  <v-container class="topSeries ma-5">
+    <h1 class="grey--text">Other Series</h1>
+  </v-container>
 </template>
 
 <script>
-import ButtonsRanking from '@/components/buttons';
-import Ranking1To5 from '../components/ranking_1-to-5';
-
 export default {
-  name: 'Ranking1To5View',
-  component: {
-      ButtonsRanking,
-      Ranking1To5
-  }
+  name: 'topSeries',
 }
 </script>

@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import topSeries from '../views/topSeries'
-import otherSeries from '../views/otherSeries'
 import home from '../views/home'
 import listSeries from '../views/listSeries'
+import topSeries from '../views/topSeries'
+import otherSeries from '../views/otherSeries'
 
 Vue.use(VueRouter)
 
@@ -20,12 +20,12 @@ const routes = [
   },
   {
     path: '/ranking_1-to-5',
-    name: 'ranking1',
-    component: topSeries
+    name: 'topSeries',
+    components: topSeries
   },
   {
     path: '/ranking_6-to-10',
-    name: 'ranking2',
+    name: 'otherSeries',
     component: otherSeries
   }
 ]

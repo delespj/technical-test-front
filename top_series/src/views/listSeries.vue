@@ -1,6 +1,5 @@
 <template>
-  <div class="ListSeries ma-5">
-    <buttons></buttons> 
+  <v-container class="ListSeries ma-5">
     <h1 class="grey--text">List Of Series</h1>
     <v-container>
       <v-layout row class="mb-3 ml-1">
@@ -42,13 +41,11 @@
         </v-layout>
       </v-card>
     </v-container>
-  </div>
+  </v-container>
 </template>
 
 <script>
-import buttons from '@/components/buttons'
 export default {
-  component: buttons,
   data () {
     return {
       series: [

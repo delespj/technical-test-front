@@ -21,7 +21,7 @@ const routes = [
   {
     path: '/ranking_1-to-5',
     name: 'topSeries',
-    components: topSeries
+    component: topSeries
   },
   {
     path: '/ranking_6-to-10',

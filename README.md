@@ -1,10 +1,8 @@
 # technical-test-front
 
-Ce projet utilise un framework répondant au doux nom de Vuetify, c'est l'unique chose que vous allez avoir à utiliser pour ce projet alors autant avoir un petit lien vers sa documentation (que vous trouverez en bas de cette page).
+Ce projet utilise un framework : Vuetify.
 
 Tout est déjà installé et prêt à l'emploi, vous n'avez en réalité qu'à écrire les 2 components représentant nos 2 pages.
-
-Trêve de blabla, passons à la pratique :
 
 L'installation du projet nécessite node.js et npm (le gestionnaire de paquet de node.js).
 Si vous ne l'avez pas encore, voici un lien pour l'installer : (https://nodejs.org/en/download/)
